@@ -31,12 +31,9 @@ value: Amount of currency to convert (e.g., "1").
 Example Request:
 
 
-Copy code
 GET /api/rates?from=USD&to=RUB&value=1
 Example Response:
 
-json
-Copy code
 {
     "result": 96.530036
 }
