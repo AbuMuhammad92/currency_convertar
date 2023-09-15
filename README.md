@@ -7,16 +7,17 @@ Clone the repository:
 bash
 Copy code
 git clone https://github.com/AbuMuhammad92/currency_convertar.git
+
 Navigate to the project directory:
-bash
 Copy code
 cd currency_converter
+
 Build the Docker image:
 Copy code
 docker build -t currency-converter:latest .
+
 Run the Docker container:
 arduino
-
 Copy code
 docker run -p 5001:5000 currency-converter:latest
 
