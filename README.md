@@ -6,7 +6,7 @@ How to Run using Docker:
 Clone the repository:
 bash
 Copy code
-git clone [URL of your GitHub repository]
+git clone https://github.com/AbuMuhammad92/currency_convertar.git
 Navigate to the project directory:
 bash
 Copy code
@@ -30,7 +30,7 @@ to: Target currency (e.g., "RUB").
 value: Amount of currency to convert (e.g., "1").
 Example Request:
 
-vbnet
+
 Copy code
 GET /api/rates?from=USD&to=RUB&value=1
 Example Response:
